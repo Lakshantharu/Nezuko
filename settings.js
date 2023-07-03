@@ -7,10 +7,10 @@ if (!gg) {
 }
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "none";
+global.mongodb = process.env.MONGODB || "mongodb+srv://tiktoktharusha2:<password>@cluster0.qb0imql.mongodb.net/?retryWrites=true&w=majority";
 global.prefa = process.env.PREFIX || ".";
 global.ggle = process.env.GOOGLE_API || "none";
-global.wter = process.env.WEATHER_API || "none";
+global.wter = process.env.WEATHER_API || "2238e510368b441ea5c222257231206";
 global.sessionId = process.env.SESSION_ID || "NEZUKO";
 global.malid = process.env.MAL_USERNAME || undefined;
 global.malpass = process.env.MAL_PASSWORD || undefined;
